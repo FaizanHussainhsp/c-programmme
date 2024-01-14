@@ -42,6 +42,7 @@ while (shouldContinue)
 bool addProductDetail()
 {
 
+
     Console.Write("Enter Product-Name: ");
     string productName = Console.ReadLine();
     if (string.IsNullOrEmpty(productName))
